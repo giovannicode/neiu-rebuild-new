@@ -1,0 +1,223 @@
+#horinav { 
+	box-shadow: 
+	0px 0px 3px 1px #333333,
+	0px 2px 3px 0px #000000;
+}
+
+/*********************************************************************************
+          FIRST TIER NAVIGATION                                           
+*********************************************************************************/
+
+/*Without Effect*/
+
+#horinav> ul 
+{
+}
+
+#horinav> ul> li {
+	background-color: #0273ad;
+	border-right: 1px solid rgb(40,120,255);
+    border-bottom: 1px solid rgb(40, 120, 255);
+}
+
+#horinav> ul> li> a { 
+	color: #dddddd;
+	font-family: Oswald;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+
+/*With Effect*/
+#horinav> ul> li:hover {
+}
+
+#horinav> ul> li:hover a{
+}
+
+
+
+/***************************************************************************************
+    Second-tier of navigation
+***************************************************************************************/
+
+/*Without effect*/
+#horinav> ul> li> ul 
+{
+	box-shadow: 0px 1px 3px 0px #333333;
+}
+
+#horinav> ul> li> ul> li 
+{
+	background-color: rgb(240,156,0);
+	width: 194px;
+	text-align: center;	
+	border-top: 1px dashed #676767;
+}
+
+#horinav> ul> li> ul> li> a
+{
+	text-decoration: none;
+	display: block;
+	color: #0273AD;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+/*With effect*/
+#horinav> ul> li> ul> li:hover
+{
+	background: #ffb901;
+	
+	
+}
+
+#horinav> ul> li> ul> li:hover a
+{
+	color: #4488AA;
+}
+
+
+/*****/
+#horinav> ul> li> ul> li:first-child
+{
+   border-top: none;
+}
+/*********************************************************************************************
+   Unique Nav Styling
+ *********************************************************************************************/
+ #horinav #accessNav:hover> a
+ {
+    color: rgb(255,185,51);
+ }
+ 
+ #horinav #accessNav ul li
+ {
+    background-color: rgba(255, 185, 51, 0.92);
+ }
+ 
+ #horinav #accessNav ul li a
+ {
+    color: #ffffff;
+	font-weight: bold;
+ }
+ 
+#horinav #accessNav ul li:hover
+{
+	background-color: rgba(255, 185, 51, 1.0);
+}
+
+#horinav #accessNav ul li:hover a
+{
+    color: white;
+}
+
+/******************/
+ #horinav #diversityNav:hover> a
+ {
+    color: rgb(255, 185, 51);
+ }
+
+ #horinav #diversityNav ul li
+ {
+    background-color: rgba(255, 185, 51, 0.92);
+ }
+ 
+ #horinav #diversityNav ul li a
+ {
+    color: white;
+	font-weight: bold;
+ }
+ 
+#horinav #diversityNav ul li:hover
+{
+	background-color: rgba(255, 185, 51, 1.0);
+}
+
+#horinav #diversityNav ul li:hover a
+{
+    color: white;
+}
+
+/*************************/
+ #horinav #involvementNav:hover> a
+ {
+    color: rgb(255, 185, 51);
+ }
+
+ #horinav #involvementNav ul li
+ {
+    background-color: rgba(255, 185, 51, 0.8);
+ }
+ 
+ #horinav #involvementNav ul li a
+ {
+    color: white;
+	font-weight: bold;
+ }
+ 
+#horinav #involvementNav ul li:hover
+{
+	background-color: rgba(255, 185, 51, 1.0);
+}
+
+#horinav #involvementNav ul li:hover a
+{
+    color: white;
+}
+
+/*************************/
+ #horinav #servicesNav:hover> a
+ {
+    color: rgb(255, 185, 51);
+ }
+
+ #horinav #servicesNav ul li
+ {
+    background-color: rgba(255, 185, 51, 0.8);
+ }
+ 
+ #horinav #servicesNav ul li a
+ {
+    color: white;
+	font-weight: bold;
+
+ }
+ 
+#horinav #servicesNav ul li:hover
+{
+	background-color: rgba(255, 185, 51, 1.0);
+}
+
+#horinav #servicesNav ul li:hover a
+{
+    color: white;
+}
+
+/***********************/
+ #horinav #vpNav:hover> a
+ {
+    color: rgb(255,185,51);
+ }
+
+ #horinav #vpNav ul li
+ {
+    background-color: rgba(255, 185, 51, 0.8);
+ }
+ 
+ #horinav #vpNav ul li a
+ {
+    color: white;
+	font-weight: bold;
+ }
+ 
+#horinav #vpNav ul li:hover
+{
+	background-color: rgba(255, 185, 51, 1.0);
+}
+
+#horinav #vpNav ul li:hover a
+{
+    color: white;
+}

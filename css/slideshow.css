@@ -1,0 +1,178 @@
+#slideshow
+{
+	float: left;
+	width: inherit;
+	height: 340px;
+    overflow: hidden;
+	position: relative;
+}
+
+/*BBB__SLIDER START*/
+#slideshow #slider
+{	
+	float: left;
+	width: inherit;
+	height: 340px;
+    overflow: hidden;
+	position: relative;
+}
+
+/*CCC__SLDCONTENTDIV START*/
+#slideshow #slider .sldContentDiv
+{
+	width: 975px;
+	height: inherit;
+	float: left;
+	position: absolute;
+}
+
+/*DDD__CAROUSELINFO START*/
+#slideshow .sldContentDiv .carouselInfo
+{
+	width: 345px;
+	height: inherit;
+	background-color: #00437a;
+	float: left;
+}
+
+/*******************************/
+/*EEE__HEADER START*/
+#slideshow .carouselInfo .header
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 90px;
+	width: 235px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top:10px;
+	text-align: center;
+	color: #fdb900;
+}
+
+
+#slideshow .heading h2
+{
+	font-family: Georgia;
+	font-weight: 200;
+	font-size: 26px;
+}
+
+#slideshow .heading span
+{
+	font-style: italic;
+	font-weight: normal;
+}
+/*EEE__HEADER END
+/*****************************/
+
+
+/*****************************/
+/*EEE__INFOBOX START*/
+#slideshow .carouselInfo .infoBox
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 235px;
+	height: 200px;
+	margin-bottom: 15px;
+	background-color: #ebf0f4;
+	border-top: 5px solid rgb(235,196,0);
+	border-left: 5px solid rgb(235,196,0);
+	border-right: 3px solid rgb(235,196,0);
+	border-bottom: 3px solid rgb(235,196,0);
+}
+
+#slideshow .infoBox> p
+{
+	margin-bottom: 20px;
+	font-family: Georgia;
+	font-size: 14px;
+}
+
+#slideshow .infoBox> p> span
+{
+	font-weight: bold;
+	font-size: 18px;
+	color: #004f8f;
+	padding-right: 2px;
+}
+
+ #slideshow .infoBox> a
+{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: arial;
+	font-weight: bold;
+	color: rgb(40, 120, 255);
+}
+
+#slideshow .infoBox> a:before
+{
+	content: ">>";
+	color: #ffb901;
+}
+/*EEE__INFOBOX END*/
+/***********************************/
+	
+	
+/***********************************/		
+/*EEE_SLIDECONTROLLER START*/
+#slideshow .slideController
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.back
+{
+width: 50px;
+height: 50px;
+background-image: url('../images/whiteArrowLeft.png');
+float: left;
+margin-left: 30px;
+
+position: relative;
+top: -3px;
+}
+
+.back:hover
+{
+	background-image: url('../images/goldArrowLeft.png');
+}
+
+.back:active
+{
+	background-image: url('../images/goldLightArrowLeft.png');
+}
+	
+.forward
+{
+	
+	width: 50px;
+	height: 50px;
+	background-image: url('../images/whiteArrowRight.png');
+	float: right;
+	margin-right: 30px;
+	
+	position: relative;
+	top: -1px;
+}
+
+.forward:hover
+{
+	background-image: url('../images/goldArrowRight.png');
+}
+
+.forward:active
+{
+	background-image: url('../images/goldLightArrowRight.png');
+}
+/*EEE_SLIDECONTROLLER END*/
+/*DDD__CAROUSELINFO END*/
+/*BBB__SLIDEBOX END*/
+/*AAA__SLIDESHOW END*/

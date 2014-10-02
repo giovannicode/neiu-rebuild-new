@@ -1,0 +1,1283 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************************** 
+ Author: GIOVANNI ARROYO
+ Date: 4/15/2013
+ 
+ 
+ Primary Colors:
+ 
+ sky-blue: #76bdeb;
+ dark-blue: #0437a;
+ Gold: #ffb901;
+ 
+ 
+*****************************/
+
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: #76bdeb;
+	font-family: Helvetica;
+}
+
+/***************************************************************************
+
+                       TOP MOST DIV
+            
+***************************************************************************/
+
+/*AAA__TOPMOSTDIV START*/
+#topMostDiv
+{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background-color: #ffb901;
+	z-index: 5;
+}
+
+#topMostDiv>div
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 120px;
+	width: 1000px;
+	color: #004488;
+}
+
+#topMostDiv>div ul
+{
+	list-style-type: none;
+	font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#topMostDiv>div ul li
+{
+	float: left;
+	margin-right: 70px;
+}
+
+#topMostDiv>div ul li a
+{
+	color: #004488;
+	text-decoration: none;
+}
+
+#topMostDiv>div ul li:before
+{
+	content: '> > ';
+	font-size: 18px;
+}
+
+#topMostDiv>div #searchBox
+{
+	background-color: #ffb901;
+	border: 12px solid #ffb901;
+	border-radius: 12px;
+	margin-right: 50px;
+	position: absolute;
+	right: 385px;
+}
+
+#topMostDiv>div #searchSubmit
+{
+	border: none;
+	width: 80px;
+	background-color: rgb(20, 20, 120);
+	color: white;
+}
+/*AAA__TOPMOSTDIV END*/
+
+
+/********************************************************************************
+
+               PAGE'S  MAIN ORGANIZERS
+               
+********************************************************************************/
+#superDiv
+{
+	width: 1015px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+#mainContainer
+{
+	padding: 0px;
+	margin: 0px;
+	width: 1015px;
+	box-shadow: 0px 0px 6px #333333;
+	background-color: white;
+	position: relative;
+	float: left;
+}
+
+#marginer1
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 975px;
+	box-sizing: border-box;
+}
+
+
+/***************************************************************************
+
+                       BANNER
+            
+***************************************************************************/
+/*AAA__BANNER START*/
+#banner
+{
+	width: inherit;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a img
+{
+	border: none;
+}
+/*AAA__BANNER END*/
+
+/***************************************************************************
+
+                       HORIZONTAL NAVIGATION
+            
+***************************************************************************/
+
+/*AAA__HORINAV START*/
+#horinav
+{
+	z-index: 1;
+}
+/*AAA_HORINAV END*/
+
+/***************************************************************************
+
+                              SLIDESHOW
+            
+***************************************************************************/
+
+/*AAA__SLIDESHOW START*/
+#slideshow
+{
+	/*LOCATED IN Slideshow.css*/
+}
+/*AAA__SLIDESHOW END*/
+
+/***************************************************************************
+
+                       SIDEBAR
+            
+***************************************************************************/
+#marginer2
+{
+	float: left;
+	margin-left: 20px;
+	width: 995px;
+}
+/***********/
+
+/*AAA__SIDEBAR START*/
+#sidebar
+{
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 230px;
+	height: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+/*BBB__OPTIONALHEADER START*/
+#sidebar> #optionalHeader
+{
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	width: 230px;
+       height: 150px;
+	height: 200px;
+	padding-top: 20px;
+	float: left;
+}
+
+#sidebar #optionalHeader .smallImage img
+{
+	width:210px;
+}
+
+#sidebar #optionalHeader #ideaBtn
+{
+	margin-top: 15px;
+}
+
+#sidebar #optionalHeader #ideaBtn img
+{
+	width:220px;
+}
+
+#sidebar #optionalHeader #socialLinks
+{
+   margin-top: 10px;
+   margin-left: -20px;
+}
+
+#sidebar #optionalHeader #socialLinks img
+{
+   margin-left: 10px;
+}
+
+
+/*BBB__OPTIONALHEADER END*/
+
+/*BBB__SECONDARYNAV START*/
+#sidebar> #secondaryNav
+{
+	width: 225px;
+	background-color: white;
+	float: left;
+	background-color: white
+}
+
+#secondaryNav> ul
+{
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+#secondaryNav> ul> li
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: inherit;
+	border-bottom: 1px dashed #00437f;
+	border-bottom: 1px dashed hsla(44, 100%, 44%, 1);
+	padding-top: 10px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	height: 63px;
+	position: relative;
+}
+
+#secondaryNav> ul> li:last-child
+{
+   border-bottom: none;
+}
+
+#secondaryNav ul li a
+{
+	text-decoration: none;
+	color: #00437f;
+	color: hsla(208, 100%, 33%, 1);
+	font-size: 13px;
+}
+
+#secondaryNav ul li img
+{
+	float: right;
+	position: relative;
+	left: -7px;
+}
+
+#sidebar #sideImg1
+{
+	float: left;
+	width: 118px;
+	position: relative;
+	top: 20px;
+}
+
+#sidebar #sideImg2
+{
+	float: left;
+	width: 108px;
+	position: relative;
+	top: 20px;
+}
+
+/*******/
+#secondaryNav ul li:hover
+{
+	background-color: #eeeeee;
+}
+
+/*BBB__SECONDARY END*/
+/*AAA__SIDEBAR END*/
+
+#secondaryNav ul ul
+{
+	display: none;	
+	
+	list-style-type: none;
+	background-color: rgb(0, 90, 168);
+	position: absolute;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	left: 181px;
+	top: 0px;
+	z-index: 10;
+	border-top-right-radius:30px 30px;
+	border-bottom-left-radius:30px 30px;
+	border: 2px solid rgb(224, 165, 0);
+}
+
+#secondaryNav ul ul li
+{
+	width: 194px;
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom: 1px dashed rgb(224, 165, 0);
+}
+
+#secondaryNav ul ul li:first-child
+{
+	border-top-right-radius:28px 28px;
+}
+
+#secondaryNav ul ul li:first-child a
+{
+	border-top-right-radius:28px 28px;
+}
+
+#secondaryNav ul ul li:last-child
+{
+	border-bottom: none;
+	border-bottom-left-radius:28px 28px;
+}
+
+#secondaryNav ul ul li:last-child a
+{
+	border-bottom-left-radius:28px 28px;
+}
+
+
+#secondaryNav ul ul li a
+{
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+
+#secondaryNav ul li:hover ul
+{
+	display: block;
+}
+
+#secondaryNav ul li:hover ul li a:hover
+{
+	background-color: white;
+	color: rgb(0, 90, 168);
+}
+/***************************************************************************
+
+                       MAIN CONTENT
+            
+***************************************************************************/
+/*AAA__MAINCONTENT START*/
+#mainContent
+{
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 600px;
+	//height: 740px;
+	border-left: 1px dashed #fdb900;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	padding-right: 60px;
+	margin-bottom: 25px;
+}
+
+#mainContent h2
+{
+	padding-right: 90px;
+}
+
+#mainContent .articles h2
+{
+	color: #00439c;
+	font-family: Georgia;
+	font-size: 19px;
+	font-weight: 500;
+	padding-left: 20px;
+	margin-top: 20px;
+	text-shadow: 1px 1px 3px #999999;
+}
+
+#mainContent .articles h2 span
+{
+	font-style: italic;
+}
+
+#mainContent .articles p
+{
+	text-indent: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+#mainContent .articles .more
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(40, 120, 255);
+	float: right;
+	margin-right: 15px;
+}
+
+#mainContent .articles .more a
+{
+	text-decoration: none;
+	color: rgb(40, 120, 255);
+}
+
+#mainContent .articles .more:before
+{
+	content: '>>';
+	color: #ffb901;
+	
+}
+
+/*BBB__STORY1 START*/
+#mainContent #story1
+{
+	width: inherit;
+	height: 500px;
+	float: left;
+}
+
+
+#mainContent #story1 #articelImage
+{
+	float: right;
+	width: 165px;
+	height: 220px;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#mainContent #articelImage img:last-child
+{
+	padding-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10px;
+	
+}
+/*BBB__STORY1 END*/
+
+/*BBB__STORY2 START*/
+#mainContent #story2
+{
+	width: inherit;
+	height: 240px;
+	float: left;
+}
+
+#mainContent #story2 img
+{
+   float: right;
+   margin-top: 35px;
+   margin-right: 15px;
+   margin-left: 10px;
+}
+
+/*BBB_STORY2 END*/
+/*AAA__MAINCOTENT END*/
+
+/**************************************************************************
+
+                     SOCIAL BAR
+
+***************************************************************************/
+/*AAA_SOCIALBAR START*/
+#newsocialBar
+{
+	width: 165px;
+	float: left;
+	box-sizing: border-box;
+	background-image: url('/images/sideBarGradient.png');
+	background-repeat: no-repeat;
+	background-color: rgb(215,215,215);
+	
+}
+
+/*BBB__SIDEBAR BANNER START*/
+#sideBarBanner
+{
+	width: inherit;
+	height: 110px;
+	float: left;
+	
+}
+
+#sideBarBanner img
+{
+	position: relative;
+	z-index: 3;
+	right: 30px;
+}
+/*BBB__SIDEBAR BANNER END*/
+
+/*BBB__FACEBOOKDIV START*/
+#facebookDiv
+{
+	width: inherit;
+	height: 110px;
+	float: left;
+	padding-top: -12px;
+}
+
+/*CCC__FACEBOOKRIBBON START*/
+#facebookRibbon
+{
+   position: relative;
+   top: -22px;
+   left: 5px;
+}
+
+#facebookRibbon img
+{
+   position: relative;
+   left: -22px;
+   top: 10px;
+   z-index: 0;
+}
+
+#facebookRibbon .outerDiv
+{
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   box-shadow: -2px 2px 7px #333333;
+   border: 3px solid #002266;
+   width: 185px;
+   height: 42px;
+   padding: 1px;
+   z-index:4;
+   
+   position: relative;
+   background-color: white;
+   
+}
+
+#facebookRibbon .outerDiv .innerDiv
+{
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width:  177px;
+   height: 34px;
+   border: 1px solid #002266;
+   padding-right: 20px;
+}
+
+#facebookRibbon .innerDiv .ribTitle
+{
+   font-family: arial;
+   font-size: 14px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+
+#facebookRibbon .innerDiv .location
+{
+   font-family: arial;
+   font-size: 11px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+
+#facebookRibbon:after
+{
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	right: -16px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid #001148;
+	border-bottom: 15px solid transparent;
+}
+/*CCC__FACEBOOOKRIBBON END*/
+
+/*CCC__FACEBOOKBOX START*/
+#facebookBox
+{
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 155px;
+   height: 45px;
+   float: right;
+   margin-right: 5px;
+   background-color: white;
+}
+
+#facebookBox .outerDiv
+{
+   border: 1px solid #002266;
+   padding: 1px;
+}
+
+#facebookBox .outerDiv .middleDiv
+{
+   border: 2px solid #002266;
+   padding: 1px;
+}
+
+#facebookBox .middleDiv .innerDiv
+{
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding-right: 1px;
+   border: 1px solid #002266;
+   width: 145px;
+   height: 35px;
+}
+
+
+#facebookBox .innerDiv .ribTitle
+{
+   font-family: arial;
+   font-size: 14px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+
+#facebookBox .innerDiv .location
+{
+   font-family: arial;
+   font-size: 11px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+/*CCC__FACEBOOKBOX END*/
+
+/*BBB__FACEBOOKDIV END*/
+
+/*BBB__TWITTERDIV START*/
+#twitterDiv
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 30px;
+	width: inherit;
+	height: 110px;
+	float: left;
+	
+}
+
+/*CCC__TWITTERRIBBON START*/
+#twitterRibbon
+{
+   position: relative;
+   top: -22px;
+   left: 5px;
+}
+
+#twitterRibbon img
+{
+   position: relative;
+   left: -22px;
+   top: 10px;
+   z-index: 0;
+}
+
+#twitterRibbon .outerDiv
+{
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 3px solid #002266;
+   box-shadow: -2px 2px 7px #333333;
+   width: 185px;
+   height: 42px;
+   padding: 1px;
+   z-index:4;
+   
+   position: relative;
+   background-color: white;
+   
+}
+
+#twitterRibbon .outerDiv .innerDiv
+{
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width:  177px;
+   height: 34px;
+   border: 1px solid #002266;
+   padding-right: 20px;
+}
+
+#twitterRibbon .innerDiv .ribTitle
+{
+   font-family: arial;
+   font-size: 14px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+
+#twitterRibbon .innerDiv .location
+{
+   font-family: arial;
+   font-size: 11px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+
+#twitterRibbon:after
+{
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	right: -16px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid #001848;
+	border-bottom: 15px solid transparent;
+	/*box-shadow: -2px -2px 2px #555555;*/
+}
+/*CCC__TWITTERRIBBON END*/
+
+/*CCC__TWITTERBOX START*/
+#twitterBox
+{
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   width: 155px;
+   height: 45px;
+   float: right;
+   margin-right: 5px;
+   background-color: white;
+}
+
+#twitterBox .outerDiv
+{
+   border: 1px solid #002266;
+   padding: 1px;
+}
+
+#twitterBox .outerDiv .middleDiv
+{
+   border: 2px solid #002266;
+   padding: 1px;
+}
+
+#twitterBox .middleDiv .innerDiv
+{
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding-right: 1px;
+   border: 1px solid #002266;
+   width: 145px;
+   height: 35px;
+}
+
+
+#twitterBox .innerDiv .ribTitle
+{
+   font-family: arial;
+   font-size: 14px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+
+#twitterBox .innerDiv .location
+{
+   font-family: arial;
+   font-size: 11px;
+   font-weight: bold;
+   color: #0044AA;
+   float: right;
+}
+/*CCC__TWITTERBOX END*/
+
+/*BBB__TWITTERDIV END*/
+
+/*BBB__MEDIADIV*/
+#mediaDiv
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 33px;
+	width: inherit;
+	height:290px;
+	float: left;
+}
+
+#mediaDiv #squigBox
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 163px;
+	height: 245px;
+	float: right;
+	padding-top: 54px;
+	text-align: center;
+	padding-left: 10px;
+	background-image: url('../images/neiuSocial.png');
+	margin-right: 5px;
+}
+
+#mediaDiv #squigBox h2
+{
+	font-size: 20px;
+	color: #00459c;
+	font-family: 'Oswald';
+	line-height: 25px;
+}
+
+#mediaDiv #squigBox img
+{
+	position: relative;
+}
+
+#mediaDiv #squigBox p
+{
+	color: #00459c;
+	line-height: 30px;
+	font-size: 19px;
+}
+
+#mediaDiv #squigBox a
+{
+	text-decoration: none;
+	color: #00459c;
+}
+
+#mediaDiv #squigBox span
+{
+   float: right;
+   margin-right: 15px;
+   font-size: 12px;
+}
+/*BBB__MEDIADIV*/
+/*AAA__SOCIALBAR END*/
+
+
+/*ZZZ_SIDEBARHACK*/
+#sideBarHack
+{
+	width: 20px;
+	height: 740px;
+	
+	position: absolute;
+	right: 0px;
+	top: 477px;
+}
+/*ZZZ_SIDEBARHACK*/
+/***************************************************************************
+
+                                  FOOTER
+            
+***************************************************************************/
+/*AAA__FOOTER START*/
+#footer
+{
+	width: inherit;
+	height: 270px;
+	float: left;
+}
+
+/*BBB__SUBFOOTER1 START*/
+#subfooter1
+{
+	-mox-box-sizing: border-box;
+	box-sizing: border-box;
+	width: inherit;
+	height: 190px;
+	background-color: rgb(215,215,215);
+}
+
+#subfooter1> div
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+
+#subfooter1 div h2
+{
+	font-family: 'Oswald', arial, serif;
+	font-size: 1.25em;
+	font-weight: 600;
+	color: #00459c;
+}
+
+/*CCC__COLUMN1 START*/
+#subfooter1 #column1
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 15px;
+	width: 333px;
+	height: inherit;
+	float: left;
+	font-family: Oswald;
+	
+}
+
+#column1 h2
+{
+   margin-left: 15px;
+}
+
+#column1 ul
+{
+	margin-top: 10px;
+	margin-left: 15px;
+	list-style-type: none;
+	font-size: 14px;
+	
+}
+
+#column1 ul li
+{
+	height: 22px;
+}
+
+#column1 ul li a
+{
+	text-decoration: none;
+	color: #58585a;
+	
+}
+
+#column1 ul li:before
+{
+	color: #58585a;
+	content: '>>';
+}
+/*CCC___COLUMN1 END*/
+
+/*CCC___COLUMN2 START*/
+#subfooter1 #column2
+{
+	width: 333px;
+	height: inherit;
+	float: left;
+	font-family: Oswald;
+	
+}
+
+#column2 h2
+{
+   margin-left: 15px;
+}
+
+#column2 ul
+{
+	margin-top: 10px;
+	margin-left: 15px;
+	list-style-type: none;
+	font-size: 14px;
+	
+}
+
+#column2 ul li
+{
+	height: 22px;
+}
+
+#column2 ul li a
+{
+	text-decoration: none;
+	color: #58585a;
+	
+}
+
+#column2 ul li:before
+{
+	color: #58585a;
+	content: '>>';
+}
+/*CCC__COLUMN2 END*/
+
+/*CCC__COLUMN3 START*/
+
+#subfooter1 #column3
+{
+	width: 333px;
+	height: inherit;
+	float: left;
+}
+
+#column3 h2
+{
+	margin-left: 20px;
+}
+
+#column3 p
+{
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #58585a;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#column3 span
+{
+	font-weight: bold;
+}
+/*CCC__COLUMN2 END*/
+/*BBB__SUBFOOTER1 END*/
+
+/*BBB__SUBFOOTER2 START*/
+#subfooter2
+{
+	-moz-box-sizing;
+	box-sizing: border-box;
+	width: inherit;
+	height: 80px;
+	float: left;
+	background-color: #58585a;
+	position: relative;
+}
+
+#subfooter2 li
+{
+	color: white;
+}
+
+#subfooter2 a
+{
+	color: white;
+	text-decoration: none;
+}
+
+/*CCC__SAINFO1*/
+#subfooter2 #saInfo1 
+{
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#subfooter2 #saInfo1 ul
+{
+	list-style-type: none;
+}
+
+#subfooter2 #saInfo1 ul li
+{
+	float: left;
+	border-right: 1px solid white;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#subfooter2 #saInfo1 ul li a
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#subfooter2 #saInfo1 ul .last
+{
+	border-right: none;
+}
+/*CCC__SAINFO1 END*/
+
+/*CCC__SAINFO2 START*/
+#subfooter2 #saInfo2
+{
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+#subfooter2 #saInfo2 ul
+{
+	list-style-type: none;
+}
+
+#subfooter2 #saInfo2 ul li
+{
+	float: left;
+	border-right: 1px solid white;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 12px;
+}
+
+
+#subfooter2 #saInfo2 ul .last
+{
+	border-right: none;
+}
+/*CCC_SAINFO2 END*/
+
+/*CCC__TINYLOGO START*/
+#subfooter2 #tinyLogo
+{
+	float: right;
+	margin-top: 0px;
+	margin-right: 15px;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+/*CCC__TINYLOGO END*/
+/*BBB__SUBFOOTER2 END*/
+/*AAA__FOOTER END*/
+
+
+/**********************************************************************************************************************
+
+                                REPLACEMENT CSS
+
+************************************************************************************************************************/
+.mainContent h3
+{
+	color: hsl(207, 100%, 28%);
+	font-size: 22px;
+	margin-top: 25px;
+}
+
+.mainContent h4
+{
+	color: hsl(207, 100%, 32%);
+	font-size: 18px;
+	margin-top: 20px;
+	
+	display: table;
+	border-bottom: 1px solid hsl(207, 100%, 35%);
+	box-sizing: border-box;
+	min-width: 185px;
+	
+	
+}
+
+.mainContent h5
+{
+	color: hsl(207, 100%, 38%);
+	font-size: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	margin-bottom: -10px;
+}
+
+.mainContent p
+{
+    font-size: 14px;
+	max-width: 550px;
+    line-height: 23px;
+	margin-top: 20px;
+	color: #3b3b3b;
+}
+
+.mainContent a
+{
+	text-decoration: none;
+	color: hsl(200, 50%, 50%);
+	font-weight: bold;
+}
+
+.mainContent a:hover
+{
+	text-decoration: underline;
+	color: hsl(200, 50%, 60%);
+}
+
+/******************************/
+.mainContent .listing
+{
+	margin-top: 25px;
+	color: hsl(40, 100%, 43%);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.mainContent .listingBullet
+{
+	list-style: none;
+	font-size: 14px;
+}
+
+.mainContent .listingBullet li
+{
+	background-image: url('/images/bulletpoint12.png');
+	padding-left: 20px;
+	margin-left: 10px;
+	padding-top: 6px;
+	margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 0 .5em;
+    max-width: 490px;
+    line-height: 18px;
+    color: #3b3b3b;
+}
+
+.mainContent .listingBullet li:first-child
+{
+	margin-top: 4px;
+}
+
+
+.mainContent .listingBullet li:last-child
+{
+	margin-bottom: 40px;
+}
+
+/***************************/
+
+.mainContent .listingBullet2
+{
+	list-style: none;
+	font-size: 14px;
+}
+
+.mainContent .listingBullet2 li
+{
+	background-image: url('/images/bulletpoint.png');
+	padding-left: 20px;
+	margin-left: 10px;
+	padding-top: 6px;
+	margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 0 .5em;
+    max-width: 600px;
+}
+
+.mainContent .listingBullet2 li:first-child
+{
+	margin-top: 4px;
+}
+
+
+.mainContent .listingBullet2 li:last-child
+{
+	margin-bottom: 10px;
+}
+
+/***************/

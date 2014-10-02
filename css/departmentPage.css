@@ -1,0 +1,530 @@
+/***********************************************************************************************************
+
+                         DEPARTMENT SHOW
+    
+***********************************************************************************************************/
+
+.departmentShow
+{
+	-moz-box-sizing: border-box;
+	 box-sizing: border-box;
+    float: right;
+	width: 975px;
+	height: 204px;
+	position: relative;
+	text-align: center;
+}
+
+.departmentShow .departmentBox
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 660px;
+	height: inherit;
+	background-color: #00437a;
+}
+
+.departmentShow .departmentBox .departmentHeading
+{
+	font-family: Georgia;
+	font-weight: 200;
+	font-size: 32px;
+	color: #fdb900;
+	margin-top: 40px;
+}
+
+.departmentShow .departmentBox .departmentHeading span
+{
+	font-style: italic;
+}
+
+.departmentShow .departmentBox .clusterSquig
+{
+	margin-top: 30px;
+}
+
+.departmentShow .departmentBox .departmentInfoSquare
+{
+	-moz-box-sizing: border-box;
+	 box-sizing: border-box;
+	 margin-top: 30px;
+	 text-align: left;
+     background-color: #ebf0f4;
+     width: 420px;
+     height: 130px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+
+.departmentShow .departmentBox .departmentInfoSquare p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+	font-family: Georgia;
+}
+
+.departmentShow .departmentInfoSquare p span
+{
+	font-weight: bold;
+	font-size: 17px;
+	font-style: italic
+}
+
+.departmentImage
+{
+	float: left;
+}
+
+.departmentImage img
+{
+	height: 204px;
+	width: 315px;
+
+}
+
+/************************************************************************************************************
+
+                                   DEPARTMENT MAIN CONTENT
+
+************************************************************************************************************/
+
+#marginerD
+{
+	float: left;
+	margin-left: 20px;
+	width: 995px;
+}
+
+#contentParentDiv
+{
+	float: left;
+	width: 975px;
+}
+
+.departmentMainContent
+{
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 745px;
+	border-left: 1px dashed #fdb900;
+	padding-left: 20px;
+	min-height: 740px;
+	margin-bottom: 40px;
+	//background-color: hsl(61, 85%, 39%);
+}
+
+/*************/
+
+.departmentMainContent h3
+{
+	color: hsl(207, 100%, 28%);
+	font-size: 22px;
+	margin-top: 25px;
+}
+
+.departmentMainContent h4
+{
+	color: hsl(207, 100%, 32%);
+	font-size: 18px;
+	margin-top: 20px;
+	
+	display: table;
+	border-bottom: 1px solid hsl(207, 100%, 35%);
+	box-sizing: border-box;
+	min-width: 185px;
+	
+	
+}
+
+.departmentMainContent h5
+{
+	color: hsl(207, 100%, 38%);
+	font-size: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	margin-bottom: -10px;
+}
+
+.departmentMainContent p
+{
+    font-size: 14px;
+	max-width: 550px;
+   line-height: 23px;
+	margin-top: 20px;
+	color: #3b3b3b;
+}
+
+.departmentMainContent a
+{
+	text-decoration: none;
+	color: hsl(200, 50%, 50%);
+	font-weight: bold;
+}
+
+.departmentMainContent a:hover
+{
+	text-decoration: underline;
+	color: hsl(200, 50%, 60%);
+}
+
+.departmentMainContent .para1
+{
+	margin-top: 20px;
+	text-indent: 8px;
+}
+
+
+
+ .departmentMainContent .definer
+{
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+ .departmentMainContent .date
+{
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+
+ .departmentMainContent .infoNote
+{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.departmentMainContent .note
+{
+	color: hsl(207, 100%, 26%);
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+
+.departmentMainContent .schoolLocation
+{
+	color: #333333;
+}
+
+.departmentMainContent .schoolLocation b
+{
+	color: #000000;
+}
+/********************/
+
+.departmentMainContent .mainContentDivider
+{
+   margin-top: 15px;
+   border-top: 1px solid #fdb900;
+   margin-bottom: 15px;
+   margin-left: -30px;
+}
+
+.departmentMainContent .secondaryContentDivider
+{
+   margin-top: 5px;
+   border-top: 1px solid #00437a;
+   margin-bottom: 0px;
+   width: 186px;
+}
+
+/*************************/
+.departmentMainContent .definerLink
+{
+	color: hsl(200, 50%, 50%);
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+.departmentMainContent .listing
+{
+	margin-top: 25px;
+	color: hsl(40, 100%, 43%);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.departmentMainContent .listingBullet
+{
+	list-style: none;
+	font-size: 14px;
+}
+
+.departmentMainContent .listingBullet li
+{
+	background-image: url('/images/bulletpoint12.png');
+	padding-left: 20px;
+	margin-left: 10px;
+	padding-top: 6px;
+	margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 0 .5em;
+    max-width: 490px;
+    line-height: 18px;
+    color: #3b3b3b;
+}
+
+.departmentMainContent .listingBullet li:first-child
+{
+	margin-top: 4px;
+}
+
+
+.departmentMainContent .listingBullet li:last-child
+{
+	margin-bottom: 40px;
+}
+
+/***************************/
+
+.departmentMainContent .listingBullet2
+{
+	list-style: none;
+	font-size: 14px;
+}
+
+.departmentMainContent .listingBullet2 li
+{
+	background-image: url('/images/bulletpoint.png');
+	padding-left: 20px;
+	margin-left: 10px;
+	padding-top: 6px;
+	margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 0 .5em;
+    max-width: 600px;
+}
+
+.departmentMainContent .listingBullet2 li:first-child
+{
+	margin-top: 4px;
+}
+
+
+.departmentMainContent .listingBullet2 li:last-child
+{
+	margin-bottom: 10px;
+}
+
+/***************/
+
+.departmentMainContent .question
+{
+	margin-top: 25px;
+	color: hsl(40, 100%, 43%);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.departmentMainContent .questionBullet
+{
+	list-style:none;
+	margin-left: 40px;
+    padding-left: 0;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 18px;
+}
+
+.departmentMainContent .questionBullet li
+{
+	background-image: url('/images/bulletpoint12.png');
+	padding-left: 20px;
+	padding-top: 6px;
+	margin-top: 15px;
+    background-repeat: no-repeat;
+    background-position: 0 .5em;
+    max-width: 450px;
+    color: #3b3b3b;
+}
+
+/********************/
+
+.departmentMainContent .staffSignature
+{
+	margin-bottom: 30px;
+}
+
+.departmentMainContent .staffSignature .staffName
+{
+   font-weight: bold;	
+   font-size: 16px;
+}
+
+.departmentMainContent .staffSignature .staffTitle
+{
+	font-style: italic;
+}
+
+.departmentMainContent .staffSignature .staffLocation
+{
+	font-weight: bold;
+}
+
+.departmentMainContent .staffSignature .staffPhone
+{
+	font-weight: bold;
+}
+
+.departmentMainContent .staffSignature .staffEmail
+{
+	//color: hsl(40, 50%, 50%);
+	font-weight: bold;
+}
+
+.departmentMainContent .staffSignature .staffDescription
+{
+	text-indent: 8px;
+	margin-top: 7px;
+	display: block;
+}
+
+/**************/
+
+.departmentMainContent .departmentSignature
+{
+	margin-top: 30px;
+	margin-bottom: -7px;
+}
+
+.departmentMainContent .departmentSignature .staffName
+{
+   font-weight: bold;	
+}
+
+.departmentMainContent .departmentSignature .staffTitle
+{
+	font-style: italic;
+}
+
+.departmentMainContent .staffSignature .staffLocation
+{
+	
+}
+
+.departmentMainContent .staffSignature .staffPhone
+{
+	
+}
+
+.departmentMainContent .staffSignature .staffEmail
+{
+}
+
+/***************************************************
+
+        DEPARTMENT HOME DESIGN
+
+
+****************************************************/
+
+.departmentMainContent .departmentParagraph
+{
+}
+
+.departmentMainContent .departmentHomeImageDiv
+{
+	
+}
+
+.departmentMainContent .departmentHomeImage
+{
+}
+
+
+
+
+
+/***********************************************
+
+   departmentPageBanner
+   
+***********************************************/
+
+.subPageBanner
+{
+    float: left;
+    width: 735px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.departmentPageHeader
+{
+	color: #00439c;
+	font-family: Georgia;
+	font-weight: 500;
+	font-size: 27px;
+	text-shadow: 1px 1px 3px #999999;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-top: 30px;
+	height: 70px;
+	width: inherit;
+	font-style: italic;
+	max-width: 650px;
+}
+
+.departmentMainContent .bannerSquare
+{
+	box-sizing: border-box;
+	width:335px;
+	height: 201px;
+	background-color: #eeeeee;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+	box-shadow: -1px 1px 9px -2px hsl(44, 100%, 20%);
+}
+
+
+.departmentMainContent .bannerSquare p
+{
+	color: #00439c;
+	font-size: 16px;
+	text-align: left;
+	text-indent: 8px;
+}
+
+.departmentMainContent .bannerSquare p span
+{
+	font-weight: bold;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+
+.departmentMainContent .subPageBanner img
+{
+	width: 335px;
+	height: 201px;
+	float: right;
+	box-shadow: -1px 1px 9px 0px #00437A;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
+
+/***************************************************
+
+   DEPARTMENT PAGE SUBCONTENT
+   
+***************************************************/
+
+.departmentMainContent .subPageContent
+{
+    padding-left: 60px;
+}
+
+
+
